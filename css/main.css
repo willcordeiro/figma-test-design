@@ -121,6 +121,7 @@ p {
 @media (max-width: 768px) {
   p {
     font-size: 48px;
+    text-align: center;
   }
 
   .container-hero {
@@ -136,6 +137,7 @@ p {
 
   .container-items {
     margin-left: 0;
+    text-align: center;
   }
 
   .container-buttons {
@@ -179,12 +181,21 @@ p {
   }
 
   .container-hero p {
-    width: 200px;
     margin-bottom: 140px;
     margin-top: 30px;
   }
 
   body {
     padding: 20px 15px;
+  }
+}
+
+.mobile-break {
+  display: none;
+}
+
+@media (max-width: 360px) {
+  .mobile-break {
+    display: none;
   }
 }
